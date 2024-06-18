@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script
+            src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    </head>
+
+    <body>
+        <a-scene backround = "color:#000000">
+            <!-- Camera -->
+            <a-entity camera look-controls position="0 0.5 3"></a-entity>
+
+            <!-- Robot body -->
+            <a-box position="0 1.25 -3" width="1" height="1" depth="1" color="gray"></a-box>
+            
+            <a-cylinder position = "0.85 -0.2 0" color = "black" radius = "0.1"></a-cylinder>
+            <a-cylinder position = "0.65 0.25 0" color = "green" radius = "0.1" height = "0.1"></a-cylinder>
+            
+            <a-cylinder position = "-0.85 -0.2 0" color = "black" radius = "0.1"></a-cylinder>
+            <a-cylinder position = "-0.65 0.25 0" color = "green" radius = "0.1" height = "0.1"></a-cylinder>
+
+            <a-box position = "0 -0.25 -3" color = "gray" height = "2" depth = "1" width = "2"></a-box>
+            <a-box position = "0 -0.25 -3" color = "black" height = "1.5" depth = "1" width = "1.5"></a-box>
+            <a-box position = "0 -0.25 -3" color = "green" height = "1" depth = "1" width = "1"></a-box>
+
+            <a-cylinder position = "-0.3 -0.92 0" color = "black" radius = "0.2" height = 01></a-cylinder>
+            <a-cylinder position = "0.3 -0.92 0" color = "black" radius = "0.2" height = 01></a-cylinder>
+
+            <a-sphere position = "-0.85 -0.79 0" color = "blue" radius = "0.1"></a-sphere>
+            <a-sphere position = "0.85 -0.79 0" color = "blue" radius = "0.1"></a-sphere>
+
+            <a-sphere position = "-0.3 -1.6 0" color = "blue" radius = "0.2"></a-sphere>
+            <a-sphere position = "0.3 -1.6 0" color = "blue" radius = "0.2"></a-sphere>
+            
+            <!-- Antenna -->
+            <a-cylinder position="0 2 -3" radius="0.05" height="0.75" color="blue"></a-cylinder>
+            <a-sphere position="0 2.4 -3" radius="0.1" color="blue"></a-sphere>
+            
+            <!-- Eyes -->
+            
+            <a-sphere position = "-0.15 1.010 0" color = "black" radius = "0.07"></a-sphere>
+            
+            <a-sphere position = "0.15 1.010 0" color = "black" radius = "0.07"></a-sphere>
+            
+          </a-scene>
+    </body>
+</html>
